@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sandra</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
@@ -15,11 +17,26 @@
     <script type="text/javascript">
         (function(){
             emailjs.init("user_SIZaQItQAmYJ7ivu66G6J");
-            emailjs.send("gmail", "Sandra", {name: "Sandra", notes:"The project I want is..."});
+/*
+                emailjs.send("gmail", "Sandra", {name: "Sandra", notes:"The project I want is..."}); 
+*/
+
+            emailjs.send("service_d3u4bmq","template_2w9zdfq", {name: "Sandra", notes:"The project I want is..."});
         })();
     </script>
+<!--
+<script type="text/javascript">
+    (function() {
+        emailjs.init("user_vanqZMkpPOADQP2iEpqKS");
+        emailjs.send("gmail", "rosie", {
+            name: "Aaron",
+            notes: "The project that I want is..."
+        })
+    })();
+</script>
+-->
 
-    <title>Sandra</title>
+    
 </head>
 <body>
     <header>
